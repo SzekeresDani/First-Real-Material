@@ -1,13 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #ffffff;
+}
+
 body{
     background-image: url('./Kepek/alap.jpg');
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #555;
 }
 
 hr{
     height: 8px;
-    background-color: #555555;
+    background-color: #555;
     border-radius: 8px;
 }
 
-h1, h2{
+h1, h3{
     text-align: center;
+}
+
+.belso {
+     width: 100%;
+     padding-left: 50px;
+}
+
+img{
+    width: 100px;
+    float: right;
 }
